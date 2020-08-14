@@ -22,17 +22,15 @@ and color).
 ```
 SBT_OPTS="-Xmx6G" sbt run
 ```
+With idle CPU, the parallel collection is roughly twice as fast.
 
-Weirdly enough the parallel version is slower
-
-Elapsed time: 829ms
-Elapsed time: 846ms
-Elapsed time: 601ms
-Elapsed time: 700ms
-Elapsed time: 656ms
-Elapsed time: 807ms
-Elapsed time: 735ms
-Elapsed time: 686ms
-Elapsed time: 678ms
-Elapsed time: 670ms
-
+Elapsed time: 528ms
+Elapsed time: 349ms
+Elapsed time: 500ms
+Elapsed time: 387ms
+Elapsed time: 482ms
+Elapsed time: 637ms
+Elapsed time: 696ms
+Elapsed time: 726ms
+Elapsed time: 641ms
+Elapsed time: 644ms
