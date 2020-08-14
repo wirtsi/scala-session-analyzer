@@ -15,6 +15,9 @@ Analyze a 250MB csv file. Data in it looks like this
 "Grey",5,"2019-09-07","color","User 0"
 ```
 
+The idea is to aggregate the second column per color (and potentially per User
+and color).
+
 
 ```
 SBT_OPTS="-Xmx6G" sbt run
